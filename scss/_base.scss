@@ -1,6 +1,6 @@
 body{
   font-size: 16px;
-  font-family: $nssans, Tahoma, sans-serif;
+  font-family: $clearsans, Tahoma, sans-serif;
   color: #060922;
 }
 
@@ -23,7 +23,7 @@ p{
 }
 
 input{
-  font-family: $nssans, Tahoma, sans-serif;
+  font-family: $clearsans, Tahoma, sans-serif;
 }
 
 .btn{
@@ -37,7 +37,7 @@ input{
   position: relative;
   color: #fff;
   font-size: 1rem;
-  font-family: $nssans, Tahoma, sans-serif;
+  font-family: $clearsans, Tahoma, sans-serif;
   line-height: calc(35px - .625rem);
   overflow: hidden;
   cursor: pointer;
@@ -76,7 +76,7 @@ input{
 
 .arrowLink{
   color: $linkblue;
-  font-family: $nssans, Tahoma, sans-serif;
+  font-family: $clearsans, Tahoma, sans-serif;
   text-decoration: none;
   position: relative;
   padding-left: 1.875em;

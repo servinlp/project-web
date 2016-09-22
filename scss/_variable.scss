@@ -1,19 +1,18 @@
 @font-face {
-  font-family: 'NSSans';
-  src: url('fonts/NSSans.eot?#iefix') format('embedded-opentype'),  url('fonts/NSSans.woff') format('woff'), url('fonts/NSSans.ttf')  format('truetype'), url('fonts/NSSans.svg#NSSans') format('svg');
+  font-family: 'ClearSans-Light';
+  src: url('fonts/ClearSans-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/ClearSans-Light.woff') format('woff'), url('fonts/ClearSans-Light.ttf')  format('truetype'), url('fonts/ClearSans-Light.svg#ClearSans-Light') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
-  font-family: 'NSSans-Bold';
-  src: url('fonts/NSSans-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/NSSans-Bold.woff') format('woff'), url('fonts/NSSans-Bold.ttf')  format('truetype'), url('fonts/NSSans-Bold.svg#NSSans-Bold') format('svg');
+  font-family: 'ClearSans';
+  src: url('fonts/ClearSans.eot?#iefix') format('embedded-opentype'),  url('fonts/ClearSans.woff') format('woff'), url('fonts/ClearSans.ttf')  format('truetype'), url('fonts/ClearSans.svg#ClearSans') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-$nssans: 'NSSans';
-$nsbold: 'NSSans-Bold';
+$clearsans: 'ClearSans-Light';
+$clearbold: 'ClearSans';
 
 $mainblue: #003082;
 $linkblue: #2d77bd;
