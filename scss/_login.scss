@@ -1,0 +1,71 @@
+.login{
+  fieldset{
+    position: relative;
+  }
+  section{
+    padding: 2em;
+    box-shadow: 0 2px 0 0 rgba(7,7,33,.15);
+    background-color: #fff;
+    margin-bottom: .875em;
+    width: 100%;
+    box-sizing: border-box;
+    form{
+      color: $mainblue;
+      &:last-child{
+        display: none;
+      }
+      legend{
+        font-size: 1.5em;
+        line-height: 1.9em;
+        margin-bottom: 1em;
+      }
+      label{
+        display: block;
+        width: 100%;
+        margin-top: 1em;
+        input{
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+          color: $mainblue;
+          border-color: currentColor;
+          border-style: inset;
+          font-size: 1em;
+          margin-top: 5px;
+          padding: em(11) em(15) em(9) em(15);
+        }
+      }
+      input[type="submit"], a, button{
+        margin-top: 1em;
+        display: block;
+      }
+      button{
+        background: none;
+        border: none;
+        font-size: 1em;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+input.btn{
+  + div{
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -33px;
+    left: 45px;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    @include transition(transform 0.15s ease);
+    @include transform(rotate(-45deg));
+    @include transform-origin(8px 8px);
+  }
+  &.open{
+    + div{
+      @include transform(rotate(45deg));
+    }
+  }
+}
